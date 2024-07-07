@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.section-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-badge {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+}
